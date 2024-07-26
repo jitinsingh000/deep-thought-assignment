@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeepThoughtTaskOne</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="nav-left">
+            <div class="navLogo"> <img src="./assets/logo.svg" alt=""></div>
+        </div>
+        <div class="nav-right">
+            <div class="icon">
+                <i class="fa-solid fa-house-chimney"></i>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-bell"></i>
+            </div>
+            <div class="profile-pic">
+                <img src="./assets//profilePic.jpg" alt="">
+            </div>
+            <div class="hamburger-menu">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+        </div>
+    </div>
+    <main>
+        <div class="top-main">
+            <h3 id="top-main-title"></h3>
+            <button type="submit">Submit task</button>
+        </div>
+        <div class="mid-main" id="tasks">
+            <h4 id="task-1-title" class="task-1-title"></h4>
+            <p id="task-1-description"></p>
+        </div>
+        <div class="assets">
+            <div class="rows"></div>
+        </div>
+        <div class="sticky-buttons">
+            <div class="sticky-button">
+                <i class="fa-solid fa-question"></i>
+            </div>
+            <div class="sticky-button">
+                <i class="fa-solid fa-users"></i>
+            </div>
+            <div class="sticky-button">
+                <i class="fa-solid fa-calendar-days"></i>
+            </div>
+        </div>
+    </main>
+
+    <div class="sidebars">
+        <div class="sidebar left-sidebar" id="left-sidebar">
+            <div class="left-sidebar-header">
+                <div class="left-sidebar-header-text">
+                    Journey Board
+                </div>
+                <div class="left-sidebar-header-button">
+                    <button id="toggleBtn" class="toggle-btn">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+            <div id="left-sidebar-main" class="left-sidebar-main">
+                <div id="content1" class="left-sidebar-main-content">
+                    <div id="one-with-border" class="one-with-border">
+                        1
+                    </div>
+                </div>
+                <div id="content2" class="left-sidebar-main-content">
+                    <ul id="upperUL">
+                        <li><b class="task-1-title"></b></li>
+                    </ul>
+                    <ul id="lowerUL">
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="right-sidebar">
+            <div class="right-sidebar-header">
+                <div class="right-sidebar-header-text">
+                    <div class="right-header-element">
+                        <div> <i class="fa-solid fa-xmark"></i></div>
+                    </div>
+
+                    <div class="right-header-element">
+                        <div>N</div>
+                        <div>o</div>
+                        <div>t</div>
+                        <div>i</div>
+                        <div>c</div>
+                        <div>e</div>
+                    </div>
+                    <div class="right-header-element">
+
+                        <div>B</div>
+                        <div>o</div>
+                        <div>a</div>
+                        <div>r</div>
+                        <div>d</div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-sidebar-main">
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/fe89c907e2.js" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
